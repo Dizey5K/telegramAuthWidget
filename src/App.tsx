@@ -11,7 +11,7 @@ function App() {
     <>
       <main>
         <TelegramLoginButton
-          botName="name"
+          botName={name}
           buttonSize="large"
           cornerRadius={10}
           usePic={false}
